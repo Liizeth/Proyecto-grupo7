@@ -5,14 +5,27 @@ function verificarConexion(client, res) {
         return false;
     }
     return true;
-}
+};
 
 
+function validarCampos(nue, camposValidos) {
+  const datosvalidos = {};
+  for (const campo in nue) {// campo el valor de cada uno de los campos que se pasaron por el body (nue)
+    if (camposValidos.includes(campo)) {
+      datosvalidos[campo] = nue[campo];
+    }
+  }
+  //solo acepta los campos de la db (los definidos en campos validos) y si tiene mas campos los saca
 
+  return datosvalidos;
+};
 
-
+function camposObligatorios(nue, camposdb) {
+  return camposdb.every(campo => nue.hasOwnProperty(campo));//campo seria una var que va a toma el valor de cada campobd y pregunta si nue lo tine
+};
 
 module.exports={
-        verificarConexion
-
+        verificarConexion,
+        validarCampos,
+        camposObligatorios
    };

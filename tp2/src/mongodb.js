@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-console.log('MONGODB_URI:', process.env.MongoDB_URLString); // muetra si leer bien 
+console.log('MONGODB_URI:', process.env.MongoDB_URLString); // muetra si leer bien la url
 
 
 const { MongoClient } = require('mongodb');
