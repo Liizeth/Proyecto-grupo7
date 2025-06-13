@@ -53,3 +53,5 @@ La API permite realizar operaciones básicas con productos utilizando los métod
  [Lizeth](https://github.com/Liizeth/) 🦋<br> 
  [Lesly](https://github.com/ltoctoar) 🐾
 
+ *🦋🐾 Estos son nuestros primeros pasos en backend. Cualquier corrección, sugerencia o consejo es más que bienvenida para seguir mejorando. ¡Gracias por acompañarnos en este camino! 🐾🦋*
+
