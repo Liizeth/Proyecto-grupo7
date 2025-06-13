@@ -50,6 +50,6 @@ La API permite realizar operaciones básicas con productos utilizando los métod
     Ejemplo: borrás un producto de la base de datos.
 
 ## 👩‍💻 Autor
- [Lizeth](https://github.com/Liizeth/)
- [Lesly](https://github.com/ltoctoar)
+ [Lizeth](https://github.com/Liizeth/) 🦋<br> 
+ [Lesly](https://github.com/ltoctoar) 🐾
 
